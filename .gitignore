@@ -1,3 +1,4 @@
 *.[oa]
 bin/
+lib/
 .DS_Store

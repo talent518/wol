@@ -12,7 +12,7 @@ endif
 all: library
 	mkdir -p bin
 	$(CC) -c wol/main.c -o main.o
-	$(CC) $(LIBS) -o bin/wol main.o
+	$(CC) -o bin/wol main.o $(LIBS)
 
 library:
 	mkdir -p lib
